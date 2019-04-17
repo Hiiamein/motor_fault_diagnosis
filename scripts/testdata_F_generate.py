@@ -9,11 +9,9 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn
 import torch
 import torchvision
 import os
-get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # In[2]:

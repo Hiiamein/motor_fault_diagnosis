@@ -9,11 +9,9 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn
 import torch
 import torchvision
 import os
-get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # In[2]:
@@ -32,7 +30,7 @@ testdata_path = r'../../data/motor_fault/Motor_testP/'
 
 # 读取反转测试数据
 testdata_B = []
- motor_name_B = []
+motor_name_B = []
 for i in os.listdir(testdata_path):
     if 'B' in i:
         single_testdata_B_path = os.path.join(testdata_path, i)
